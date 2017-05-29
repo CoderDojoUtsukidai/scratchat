@@ -1,0 +1,33 @@
+{
+    "extensionName": "scratchat",
+    "extensionPort": 50355,
+    "url": "https://github.com/japonophile/scratchat",
+    "blockSpecs": [
+        [
+            " ",
+            "connect as %s",
+            "connect_as"
+        ],
+        [
+            " ",
+            "join room %s",
+            "join_room"
+        ],
+        [
+            " ",
+            "say %s",
+            "say"
+        ],
+        [
+            "r",
+            "last message",
+            "last_message"
+        ],
+        [
+            "r",
+            "last speaker",
+            "last_speaker"
+        ],
+    ],
+    "menus": {}
+}
