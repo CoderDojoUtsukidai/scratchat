@@ -53,12 +53,18 @@ You should see scratchat blocks appear under "More Blocks".
 You can choose your username, but it should not be the same as other users.
 You can specify any name for the room, but you will see messages only from users in the same room.
 
+![Connect to pychat server](01-connection.png)
+
 - Next, you can start chatting, e.g. using the ```"say []"``` block.
 Anything you say will be sent to the chat server and visible by other users connected to the server and who are in the same chat room.
 
-- You can also check the latest message received using the block ```"(last message)"```.
+- You can check the latest message received using the block ```"(last message)"```.
+
+![Check the last message](02-last-message.png)
 
 - A block is also provided to check whether a string contains a given substring.  This is useful for checking the messages you receive and react to them.  Due to a limitation in Scratch 2.0 Offline Editor, you need to first call the block ```"check if [] contains []"```, then immediately after, use the result by including the block ```"<contains text?>"```.
+
+![Check received message and say something](03-check-and-say.png)
 
 
 ## Other features
