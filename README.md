@@ -76,6 +76,11 @@ Anything you say will be sent to the chat server and visible by other users conn
 - You can check the connexion status, your own username (my handle) and the room you are in
 
 
+## Sample app
+
+Download and check the [sample app](sample_app.sb2) for a simple chatbot that answers "how are you?" by "I'm fine".
+
+
 ## License
 
 Scratchat is based on the work of others and is licensed under the LGPL 2.1 license (or later).
