@@ -3,31 +3,19 @@
     "extensionPort": 50355,
     "url": "https://github.com/japonophile/scratchat",
     "blockSpecs": [
-        [
-            " ",
-            "connect as %s",
-            "connect_as"
-        ],
-        [
-            " ",
-            "join room %s",
-            "join_room"
-        ],
-        [
-            " ",
-            "say %s",
-            "say"
-        ],
-        [
-            "r",
-            "last message",
-            "last_message"
-        ],
-        [
-            "r",
-            "last speaker",
-            "last_speaker"
-        ],
+        [ " ", "connect as %s", "connect_as" ],
+        [ " ", "join room %s", "join_room" ],
+        [ " ", "say %s", "say" ],
+        [ " ", "say %s to %s", "say_to" ],
+        [ "w", "check if %s contains %s", "check_message_contains" ],
+        [ "b", "connected?", "connected" ],
+        [ "r", "my handle", "username" ],
+        [ "r", "room", "room" ],
+        [ "r", "last message", "last_message" ],
+        [ "r", "last speaker", "last_speaker" ],
+        [ "b", "contains text?", "contains_text" ],
+        [ "r", "last message for me", "last_message_for_me" ],
+        [ "r", "last message for %s", "last_message_for" ],
     ],
     "menus": {}
 }

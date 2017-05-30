@@ -3,31 +3,19 @@
     "extensionPort": 50355,
     "url": "https://github.com/japonophile/scratchat",
     "blockSpecs": [
-        [
-            " ",
-            "%s として接続",
-            "connect_as"
-        ],
-        [
-            " ",
-            "%s に入室",
-            "join_room"
-        ],
-        [
-            " ",
-            "%s と言う",
-            "say"
-        ],
-        [
-            "r",
-            "最新のメッセージ",
-            "last_message"
-        ],
-        [
-            "r",
-            "最後の発言者",
-            "last_speaker"
-        ],
+        [ " ", "%s として接続", "connect_as" ],
+        [ " ", "%s に入室", "join_room" ],
+        [ " ", "%s と言う", "say" ],
+        [ " ", "%s を %s に言う", "say_to" ],
+        [ "w", "%s が「 %s 」を含むか確認", "check_message_contains" ],
+        [ "b", "接続中？", "connected" ],
+        [ "r", "ユーザー名", "username" ],
+        [ "r", "部屋", "room" ],
+        [ "r", "最新のメッセージ", "last_message" ],
+        [ "r", "最後の発言者", "last_speaker" ],
+        [ "b", "文字列を含む？", "contains_text" ],
+        [ "r", "自分宛の最新のメッセージ", "last_message_for_me" ],
+        [ "r", "%s 宛の最新のメッセージ", "last_message_for" ],
     ],
     "menus": {}
 }
